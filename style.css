@@ -1,2 +1,16 @@
 /* You can not modify anything from the HTML file */
 /* You can only modify the CSS file */
+
+.navbar{
+    display: flex;
+}
+
+.navbar-container{
+    display: flex;
+}
+
+.list{
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+}
