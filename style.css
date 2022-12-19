@@ -10,7 +10,13 @@
 }
 
 .list{
+
+    text-align: center;
     display: flex;
     list-style-type: none;
-    gap: 10px;
+    gap: 30px;
+}
+
+.search-icon{
+    display: flex;
 }
