@@ -1,22 +1,81 @@
 /* You can not modify anything from the HTML file */
 /* You can only modify the CSS file */
 
-.navbar{
-    display: flex;
+/* 🤔🤔  doubt  how to make the navbar in 3 part using 
+flex:3 and then giving each child  🤔 🤔 */
+/* and so as flex :2 flex:1 respectively  🤔 🤔 */
+
+
+
+.container{
+    padding: 10px;
 }
+
+
+.navbar{
+    display: flex; 
+    
+
+}
+
 
 .navbar-container{
     display: flex;
 }
 
 .list{
-
-    text-align: center;
     display: flex;
+    gap: 50px;
     list-style-type: none;
-    gap: 30px;
+    margin-left: 300px;  
+    font-weight: 30px;
+    font-family: Orbitron;
 }
 
-.search-icon{
+
+ /* 🤔🤔 unable to move the border bottom to right side 😢😢😭😭😟 */
+
+li:first-child{
+    width: 30px;
+    border-bottom: 3px solid black;
+    /* border-bottom-left-radius: ; */
+    border-width: 3px;
+    /* border-left-width: 10px; */
+    border-right-width: 20px;
+    /* border-left: 30px; */
+}
+
+.button-group{
     display: flex;
+    margin-left: 300px;
+    font-family: Orbitron;
+
+}
+
+.search-icon svg{
+    height: 17px;
+    margin-top: 20px;
+    font-family: Orbitron;
+
+}
+
+.nav-button{
+
+    background-color: transparent;
+    padding: 5px;
+    margin-top: 10px;
+    width: 120px;
+    border-radius: 10px;
+    border-width: 3px ;
+    font-size: 13px;
+
+}
+
+.hero-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.square{
+    margin-top: 200px;
 }
