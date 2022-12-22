@@ -79,3 +79,17 @@ li:first-child{
 .square{
     margin-top: 200px;
 }
+
+.star{
+    position: absolute;
+}
+
+.globe{
+    position: absolute;
+}
+
+
+.hero-container-right{
+    text-align: center;
+}
+
