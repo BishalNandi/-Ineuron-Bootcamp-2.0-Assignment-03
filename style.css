@@ -1,9 +1,9 @@
-/* You can not modify anything from the HTML file */
+/* You can not modify anything from the HTML file */  /*OK ACCEPTED ✅✅✅✅
 /* You can only modify the CSS file */
 
 /* 🤔🤔  doubt  how to make the navbar in 3 part using 
 flex:3 and then giving each child  🤔 🤔 */
-/* and so as flex :2 flex:1 respectively  🤔 🤔 */
+/* and so as flex :2 flex:1 respectively  🤔 🤔  25/12/22 SOLVED UNDERWSTOOD BY WATCHING AND DOING PROJECT FROM LCO LEGEND HITESH SIR COURSE 😀😀😀😀😀😀😀😀😀 */
 
 
 
@@ -33,7 +33,7 @@ flex:3 and then giving each child  🤔 🤔 */
 }
 
 
- /* 🤔🤔 unable to move the border bottom to right side 😢😢😭😭😟 */
+ /* 🤔🤔 unable to move the border bottom to right side 😢😢😭😭😟  SOLVED 24/12/2022 😁😁😂😂🤣🤣😃😃 */
 
 li:first-child{
     width: 30px;
@@ -80,13 +80,13 @@ li:first-child{
     margin-top: 200px;
 }
 
+
+/* 😭😭😭😢😢😢 when i remove this everything become bad 26/12/2022😭😭😭😢😢😢 */
+
 .star{
     position: absolute;
 }
 
-.globe{
-    position: absolute;
-}
 
 .hero-container {
    margin-top: 70px;
@@ -128,8 +128,12 @@ li:first-child{
 
 }
 
-.globe{
-    display: none;
+.globe img{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    margin-left: 630px;
+    margin-top: -40px;
 }
 
 .hero-description{
@@ -158,3 +162,13 @@ li:first-child{
     font-family: orbitron;
 }
 
+.contact-heading{
+    margin-top: 80px;
+}
+
+.icons{
+    margin-left: -20px;
+}
+
+
+/* 😁😁😂😂🤣🤣😀😀 ALL ISSUES SOLVED AND COMPLETED 26/12/2022 😁😁😂😂🤣🤣😃😃 */
