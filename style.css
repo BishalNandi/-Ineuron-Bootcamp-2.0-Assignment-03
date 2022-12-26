@@ -112,7 +112,8 @@ li:first-child{
 }
 
 .hero-heading{
-    font-size: 70px;
+    font-size: 60px;
+    font-family: orbitron;
 }
 
 
@@ -131,20 +132,29 @@ li:first-child{
     display: none;
 }
 
-.button-email{
-
-}
-
-.button-join{
-    
-}
-
-.contact-heading{
-
+.hero-description{
+    width: 60%;
+    text-align: center;
+    margin-top: -20px;
 }
 
 .icons img{
     height: 30px;
     width: 30px;
+}
+
+.button-email{
+    margin-top: 80px;
+    border-radius: 7px;
+    font-family: orbitron;
+    margin-right: 10px;
+
+}
+
+.button-join{
+    background-color: #1f1f1f;
+    color: #ffff;
+    border-radius: 7px;
+    font-family: orbitron;
 }
 
