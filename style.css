@@ -94,9 +94,9 @@ li:first-child{
 
 .square{
     position: absolute;
-    margin-left: 200px;
+    margin-left: 60px;
     z-index: -1;
-    margin-top: 330px;
+    margin-top: 140px;
 }
 
 .hero-container-right{
@@ -107,14 +107,28 @@ li:first-child{
    
 }
 
+.hero-container img{
+    width: 350px;
+}
+
+.hero-heading{
+    font-size: 70px;
+}
 
 
-.star{
+
+.star img{
+    /* position: absolute; */
+    bottom: 0;
+    margin-top: 420px;
+    margin-left: 480px;
+    height: 50px;
+    width: 50px;
 
 }
 
 .globe{
-
+    display: none;
 }
 
 .button-email{
