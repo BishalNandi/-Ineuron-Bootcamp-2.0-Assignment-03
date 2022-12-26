@@ -73,7 +73,7 @@ li:first-child{
 
 .hero-container{
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
 }
 
 .square{
@@ -88,14 +88,26 @@ li:first-child{
     position: absolute;
 }
 
-
-.hero-container-right{
-    text-align: center;
+.hero-container {
+   margin-top: 70px;
 }
 
 .square{
-
+    position: absolute;
+    margin-left: 200px;
+    z-index: -1;
+    margin-top: 330px;
 }
+
+.hero-container-right{
+   display: flex;
+   flex-direction: column;
+   /* justify-content: center; */
+   align-items: center;
+   
+}
+
+
 
 .star{
 
@@ -117,7 +129,8 @@ li:first-child{
 
 }
 
-.icons{
-
+.icons img{
+    height: 30px;
+    width: 30px;
 }
 
